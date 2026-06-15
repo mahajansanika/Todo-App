@@ -46,4 +46,4 @@ def delete_todo(todo_id: int):
         if todo.id == todo_id:
             del todos[index]
             return {"message": "Todo deleted successfully!"}
-    return {"message": "Todo not found!"}
+    return {"message": "Todo not found. Please find enter correct data!"}
